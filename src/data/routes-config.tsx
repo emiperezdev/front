@@ -4,13 +4,13 @@ import ErrorBoundaryPage from '@/app/errorBoundary/ErrorBoundaryPage';
 import WithSuspense from '@/components/with-suspense';
 import { LazyComponents } from '@/data/lazy-components';
 
-import { COMPANY_PATH } from './paths';
+import { PRODUCT_PATH } from './paths';
 
 const { CompanyPage } = LazyComponents;
 
 const loggedInRoutes: RouteObject[] = [
   {
-    path: COMPANY_PATH,
+    path: PRODUCT_PATH,
     element: <CompanyPage />,
     errorElement: <ErrorBoundaryPage />,
   },

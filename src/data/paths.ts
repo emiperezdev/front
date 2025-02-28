@@ -1,2 +1,2 @@
 export const STATISTICS_PATH = '/statistics';
-export const COMPANY_PATH = '/company';
+export const PRODUCT_PATH = '/product';
